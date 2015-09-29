@@ -3,7 +3,7 @@
 
 
 How its work :
-
+```swift
     let date = NSDate()
     let calender = NSCalendar(calendarIdentifier: NSCalendarIdentifierPersian)
     let components = calender?.components(NSCalendarUnit(UInt.max), fromDate: date)
@@ -13,3 +13,4 @@ How its work :
     let day = components!.day
     
     txtDate.text = "\(year)/\(month)/\(day)"
+```

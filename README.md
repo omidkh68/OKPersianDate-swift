@@ -4,13 +4,13 @@
 
 How its work :
 ```swift
-    let date = NSDate()
-    let calender = NSCalendar(calendarIdentifier: NSCalendarIdentifierPersian)
-    let components = calender?.components(NSCalendarUnit(UInt.max), fromDate: date)
-    
-    let year =  components!.year
-    let month = components!.month
-    let day = components!.day
-    
-    txtDate.text = "\(year)/\(month)/\(day)"
+let date = NSDate()
+let calender = NSCalendar(calendarIdentifier: NSCalendarIdentifierPersian)
+let components = calender?.components(NSCalendarUnit(UInt.max), fromDate: date)
+
+let year =  components!.year
+let month = components!.month
+let day = components!.day
+
+txtDate.text = "\(year)/\(month)/\(day)"
 ```
